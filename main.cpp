@@ -42,5 +42,9 @@ public:
 };
 
 int main(void) {
-    Reservation sample;
+    ifstream inFile;
+    ofstream outFile;
+
+    Reservation arr[5]; 
+
 }
