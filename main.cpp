@@ -42,9 +42,10 @@ public:
 };
 
 int main(void) {
-    ifstream inFile;
-    ofstream outFile;
-
     Reservation arr[5]; 
+
+    for (int i = 0; i < 5; i++) {
+        
+    
 
 }
