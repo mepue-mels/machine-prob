@@ -43,9 +43,21 @@ public:
 
 int main(void) {
     Reservation arr[5]; 
+    ifstream inFile;
+    ofstream outFile;
 
-    for (int i = 0; i < 5; i++) {
+    if (!inFile) {
+        return 1;
+    } else {
+        inFile.open("data.dat");
+    }
+
+    for (int i = 0; i < 5; i++) { // populate array from database
+        arr[i].fetchMatrix(inFile);
+    }
+
+
+
+
         
-    
-
 }
